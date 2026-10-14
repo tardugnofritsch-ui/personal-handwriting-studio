@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150">
+<rect width="1000" height="150" fill="#f7f9fc" rx="16"/>
+<g font-family="sans-serif" font-size="18" text-anchor="middle" fill="#23364b">
+<rect x="20" y="40" width="160" height="65" rx="10" fill="#e3edf7"/><text x="100" y="79">1. 样本采集</text>
+<rect x="215" y="40" width="160" height="65" rx="10" fill="#e3edf7"/><text x="295" y="79">2. 字体学习</text>
+<rect x="410" y="40" width="160" height="65" rx="10" fill="#e3edf7"/><text x="490" y="79">3. TTF 字库</text>
+<rect x="605" y="40" width="160" height="65" rx="10" fill="#e3edf7"/><text x="685" y="79">4. 柔和变体</text>
+<rect x="800" y="40" width="180" height="65" rx="10" fill="#dbefe7"/><text x="890" y="79">5. PNG / PDF</text>
+<text x="198" y="79">→</text><text x="392" y="79">→</text><text x="588" y="79">→</text><text x="782" y="79">→</text>
+</g></svg>

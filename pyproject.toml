@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personal-handwriting-studio"
+version = "0.1.0"
+description = "Personal handwriting samples to fonts and gentle A4 manuscripts"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10", "numpy>=1.24", "fonttools>=4.50", "opencv-python-headless>=4.8"]
+
+[project.optional-dependencies]
+ai = ["torch>=2.2"]
+
+[project.scripts]
+handwriting = "handwriting_studio.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

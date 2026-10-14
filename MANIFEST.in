@@ -1,0 +1,2 @@
+include LICENSE THIRD_PARTY_NOTICES.md
+recursive-include src/handwriting_studio/_mxfont LICENSE NOTICE
